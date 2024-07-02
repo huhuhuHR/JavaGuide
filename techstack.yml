@@ -1,0 +1,143 @@
+repo_name: huhuhuHR/JavaGuide
+report_id: 3dfa41abd36670a8c926fa041eae7d6a
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:22+00:00'
+requested_by: Snailclimb
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide/blob/master/数据结构与算法/source
+    code/securityAlgorithm/pom.xml
+  detection_source: 数据结构与算法/source code/securityAlgorithm/pom.xml
+  last_updated_by: Snailclimb
+  last_updated_on: 2018-07-31 06:49:01.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide/blob/master/数据结构与算法/source
+    code/securityAlgorithm/pom.xml
+  detection_source: 数据结构与算法/source code/securityAlgorithm/pom.xml
+  last_updated_by: Snailclimb
+  last_updated_on: 2018-07-31 06:49:01.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  version: '1.56'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide/blob/master/数据结构与算法/source
+    code/securityAlgorithm/pom.xml
+  detection_source: 数据结构与算法/source code/securityAlgorithm/pom.xml
+  last_updated_by: Snailclimb
+  last_updated_on: 2018-07-31 06:49:01.000000000 Z
+  vulnerabilities:
+  - name: Bouncy Castle crafted signature and public key can be used to trigger an
+      infinite loop
+    cve_id: CVE-2024-30172
+    cve_url: https://github.com/advisories/GHSA-m44j-cfrm-g8qc
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Bouncy Castle Denial of Service (DoS)
+    cve_id: CVE-2023-33202
+    cve_url: https://github.com/advisories/GHSA-wjxj-5m7g-mg7q
+    detected_date: Mar 15
+    severity: moderate
+    first_patched:
+  - name: Observable Differences in Behavior to Error Inputs in Bouncy Castle
+    cve_id: CVE-2020-26939
+    cve_url: https://github.com/advisories/GHSA-72m5-fvvv-55m6
+    detected_date: Mar 15
+    severity: moderate
+    first_patched: '1.61'
+  - name: Bouncy Castle For Java LDAP injection vulnerability
+    cve_id: CVE-2023-33201
+    cve_url: https://github.com/advisories/GHSA-hr8g-6v94-x4m9
+    detected_date: Sep 6
+    severity: moderate
+    first_patched:
+  - name: Bouncy Castle certificate parsing issues cause high CPU usage during parameter
+      evaluation.
+    cve_id: CVE-2024-29857
+    cve_url: https://github.com/advisories/GHSA-8xfc-gm6g-vgpv
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Timing based private key exposure in Bouncy Castle
+    cve_id: CVE-2020-15522
+    cve_url: https://github.com/advisories/GHSA-6xx3-rg99-gc3p
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: '1.66'
+  - name: Bouncy Castle affected by timing side-channel for RSA key exchange ("The
+      Marvin Attack")
+    cve_id: CVE-2024-30171
+    cve_url: https://github.com/advisories/GHSA-v435-xc8x-wvr9
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.8'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/JavaGuide/blob/master/数据结构与算法/source
+    code/securityAlgorithm/pom.xml
+  detection_source: 数据结构与算法/source code/securityAlgorithm/pom.xml
+  last_updated_by: Snailclimb
+  last_updated_on: 2018-07-31 06:49:01.000000000 Z
